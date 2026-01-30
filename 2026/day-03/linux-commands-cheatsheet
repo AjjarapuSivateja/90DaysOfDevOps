@@ -1,0 +1,56 @@
+process management commands:
+
+ps:This command will show you the information about the programs that are currently running on your computer.
+example usage: ps aux
+
+pidof: This command is used to get the Process ID (PID) of a running process.
+example usage: pidof<process>
+
+pgrep: This command is used to search process by name and return their Process ID (PID)
+example usage: pgrep<name>
+
+top: This command will lets you see how much of the computers resources (like CPU and memory) are being used and as well as the details about the running programs and processes.
+example usage: top
+
+kill: This command wil allow you to stop the running program by sending it a signal
+example usage: (kill 1234)- Kills process with PID 1234
+
+pgrep: This command will help you find the program by name or with other attributes and gives you its process ID number.
+example usage: pgrep chrome
+
+
+
+
+
+
+network commands:
+ip addr: Displays and allows you to configure network interfaces, routing, and tunnels.
+example usage: (ip addr show)- Shows the IP addresses assigned to network interfaces.
+
+netstat: Shows active network connections, routing information, and other network statistics.
+example usage: (netstat -antp)- Lists all active network connections and the processes using them.
+
+ping: Tests network connectivity between a host/client and server by sending data packets and measuring the response time.
+example usage: (ping 8.8.8.8)- Tests connectivity to the Google DNS server at 8.8.8.8
+
+dig: Performs DNS lookups to query information about DNS name servers.
+example usage: (dig @8.8.8.8 example.org)- Queries Google's DNS server for information about example.
+
+
+
+
+
+
+File system commands:
+
+ls:  list the files and directories.
+cd: change directory
+mkdir: make directory- usage: mkdir [directory name]
+rmdir: remove directory-usage:rmdir [directory name]
+cp: copy-The cp commad in Linux is used to copy files and directories from one location to another.usage: cp [source_file] [location]
+mv: move-The mv command in Linux is used to move or rename files and directories from one location to another.-usage: mv [source_file] [location]
+tree: It helps you see all the folders at once. It shows how all the folders are connected, like a family tree.
+
+
+
+
